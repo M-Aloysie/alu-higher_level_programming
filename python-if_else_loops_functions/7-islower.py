@@ -4,4 +4,3 @@ def islower(character):
         return True
     else:
         return False
-
