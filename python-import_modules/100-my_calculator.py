@@ -23,5 +23,5 @@ if __name__ == "__main__":
         num = div(a, b)
     else:
         print("Unknown operator. Available operators: +, -, * and /")
-        exit(1)
+        exit(1) 
     print("{:d} {} {:d} = {:d}".format(a, op, b, num))
