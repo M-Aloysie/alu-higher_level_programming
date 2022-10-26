@@ -9,19 +9,19 @@ if __name__ == "__main__":
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
                                 
-        x = int(argv[1])
-        ab = argv[2]
-        y = int(argv[3])
+        a = int(argv[1])
+        op = argv[2]
+        b = int(argv[3])
 
-    if ab == "+":
-        num = add(x, y)
-    elif ab == "-":
-        num = sub(x, y)
-    elif ab == "*":
-        num = mul(x, y)
-    elif ab == "/":
-        num = div(x, y)
+    if op == "+":
+        num = add(a, b)
+    elif op == "-":
+        num = sub(a, b)
+    elif op == "*":
+        num = mul(a, b)
+    elif op == "/":
+        num = div(a, b)
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
-    print("{:d} {} {:d} = {:d}".format(x, ab, y, num))
+    print("{:d} {} {:d} = {:d}".format(a, op, b, num))
