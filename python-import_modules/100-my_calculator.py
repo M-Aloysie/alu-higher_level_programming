@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     if e == "+":
         num = add(x, y)
-    elif e  == "-":
+    elif e == "-":
         num = sub(x, y)
     elif e == "*":
         num = mul(x, y)
