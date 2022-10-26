@@ -10,7 +10,7 @@ if __name__ == "__main__":
         exit(1)
                                 
     x = int(argv[1])
-    e= argv[2]
+    e = argv[2]
     y = int(argv[3])
 
     if e == "+":
