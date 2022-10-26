@@ -10,18 +10,18 @@ if __name__ == "__main__":
         exit(1)
                                 
         a = int(argv[1])
-        e= argv[2]
+        op= argv[2]
         b = int(argv[3])
 
-    if e == "+":
+    if op == "+":
         num = add(a, b)
-    elif e == "-":
+    elif op == "-":
         num = sub(a, b)
-    elif e == "*":
+    elif op == "*":
         num = mul(a, b)
-    elif e == "/":
+    elif op == "/":
         num = div(a, b)
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
-    print("{:d} {} {:d} = {:d}".format(a, e, b, num))
+    print("{:d} {} {:d} = {:d}".format(a, op, b, num))
