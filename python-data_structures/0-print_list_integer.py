@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-my_list=[1,2,4,5,7,9,10]
+my_list = [1, 2, 3, 4, 5]
+print_list_integer(my_list)
 
 for number in my_list:
-    print("number")
+    print(number)
 size = len (my_list)
 for i in range (size):
     print(my_list[i])
