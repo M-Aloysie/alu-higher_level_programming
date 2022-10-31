@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-def f_anynumber _for(my_list
-    for i in my_list
+my_list=[1,2,4,5,7,9,10]
 
-if __name__ == '__main__'
-
-    print("original list")
-    print(my_list)
+for number in my_list:
+    print("number")
+size = len (my_list)
+for i in range (size):
+    print(my_list[i])
