@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#finding the biggest integer of a list
+# Finding the biggest integer of a list
 
 
 def max_integer(my_list=[]):
