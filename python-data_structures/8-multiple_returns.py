@@ -1,5 +1,6 @@
 #!/usr/bin/pyhton3
-# Returning a tuple with a length of string
+# Returning a tuple
+# with the length of a string and its first character
 
 
 def multiple_returns(sentence):
