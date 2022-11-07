@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# A function that prints an integer with "{:d}".format())"}"
+# A function that prints an integer with "{:d}".format()
+
 
 def safe_print_integer(value):
     try:
