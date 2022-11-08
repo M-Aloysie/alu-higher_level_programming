@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 # A class Square that defines a square by:(based on 1-square.py)
-"""
-   define a class 'Square'
-"""
+"""define a class Square"""
 
 
 class square:
