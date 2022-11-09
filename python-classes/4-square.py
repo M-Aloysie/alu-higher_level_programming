@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# A class 'Square' that defines a square by:
-# (based on 3-square.py)
+# A class 'Square' that defines a square 
 """define a class Square."""
  
 
@@ -16,15 +15,11 @@ class Square:
 
     @property
     def size(self)
-        """
-        gets current size of the square
-        """
+        """gets current size of the square."""
         return (self.__size)
+
     @size.setter
     def size(self, value):
-        """
-            validates size is an integer that is greater than zero
-        """
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         elif value < 0:
@@ -32,7 +27,5 @@ class Square:
         self.__size = value
 
      def area(self):
-         """
-            Return: area of the square.
-         """
+         """Return: area of the square."""
          return (self.__size * self.__size)
