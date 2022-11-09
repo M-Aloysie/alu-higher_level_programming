@@ -1,23 +1,18 @@
 #!/usr/bin/python3
 # A class 'Square' that defines a square by:
 # (based on 3-square.py)
-"""
-    define a class 'Square'
- """
-
+"""define a class Square."""
+ 
 
 class Square:
-    """
-        square with private instance attribute: 'size'
-    """
-
+    """Represent a square."""
+        
     def __init__(self, size=0):
-        """
-
-           Args:
-
-               size (int): size of the new square
-        """                                                                 self.size = size
+        """Initialize a new square.
+        Args:
+            size (int): size of the new square
+        """            
+        self.size = size
 
     @property
     def size(self)
@@ -36,8 +31,8 @@ class Square:
             raise ValueError("size must be a >= 0")
         self.__size = value
 
-        def area(self):
-            """
-               Return: area of the square
-            """
+     def area(self):
+         """
+            Return: area of the square.
+         """
          return (self.__size * self.__size)
