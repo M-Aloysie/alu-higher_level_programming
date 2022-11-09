@@ -22,7 +22,7 @@ class Node:
     @data.setter
     def data(self, value):
         if not isinstance(value, int):
-            raise TypeError("data must be an integer)
+            raise TypeError("data must be an intege")
         self.__data = value
 
     @property
@@ -74,5 +74,3 @@ class SinglyLinkedList:
             values.append(str(tmp.data))
             tmp = tmp.next_node
         return ('\n'.join(values))
-
-
