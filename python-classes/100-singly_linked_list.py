@@ -30,11 +30,11 @@ class Node:
         """Get/set the next_node of the Node."""
         return (self.__next_node)
 
-     @next_node.setter
-     def next_node(self, value):
-         if not isinstance(value, Node) and value is not None:
-             raise TypeError("next_node must be a Node object")
-         self.__next_node = value
+    @next_node.setter
+    def next_node(self, value):
+        if not isinstance(value, Node) and value is not None:
+            raise TypeError("next_node must be a Node object")
+        self.__next_node = value
 
 
 class SinglyLinkedList:
@@ -74,3 +74,5 @@ class SinglyLinkedList:
             values.append(str(tmp.data))
             tmp = tmp.next_node
          return ('\n'.join(values))
+
+
