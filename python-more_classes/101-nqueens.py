@@ -24,6 +24,7 @@ def init_board(n):
     [row.append(' ') for i in range(n) for row in board]
     return (board)
 
+
 def board_deepcopy(board):
     """Return a deepcopy of a chessboard."""
     if isinstance(board, list):
