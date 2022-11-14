@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-type()
+#printing the type of the object
+type
