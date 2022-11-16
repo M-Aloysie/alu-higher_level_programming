@@ -10,7 +10,7 @@ class Rectangle(BaseGeometry):
     """representation of Rectangle."""
 
     def __init__(self, width, height):
-        """intialize a new Rectangle 
+       """intialize a new Rectangle.
            Args:
                width (int): width of the new rectangle
                height (int): height of the new rectangle
