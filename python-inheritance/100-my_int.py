@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # A class 'MyInt' that inherits from 'int'
-"""define a class 'MyInt' inheriting from int."""
+"""define a class MyInt inheriting from int."""
 
 
 class MyInt(int):
