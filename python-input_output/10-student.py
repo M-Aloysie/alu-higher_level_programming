@@ -10,7 +10,7 @@
 #       that retrieves a dictionary representation
 #       of a Student instance (same as 8-class_to_json.py):
 #           - If attrs is a list of strings, only attribute names
-# contained in this  list must be retrieved 
+#  contained in this  list must be retrieved
 # Otherwise, all attributes must be retrieved
 """class Student."""
 
