@@ -54,7 +54,7 @@ string:
          TypeError: string must be an integer
 
 list:
-         >>> bg.integer_validator("list", [1, 2, 3])]
+         >>> bg.integer_validator("list", [1, 2, 3])
          Traceback (most recent call last):
                    ...
          TypeError: list must be an integer
