@@ -5,7 +5,7 @@ Using ``BaseGeometry``
 -------------------
 
 import module:
-         >>> BaseGeometry = __import__("7-base_geometry").Basegeometry
+         >>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
 
 integer:
          >>> bg = BaseGeometry()
