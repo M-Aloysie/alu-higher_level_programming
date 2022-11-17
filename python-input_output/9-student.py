@@ -9,11 +9,11 @@
 #   - Public method def to_json(self):
 #       that retrieves a dictionary representation
 #       of a Student instance (same as 8-class_to_json.py)
-"""class student."""
+"""class Student."""
 
 
-class student:
-    """define class student."""
+class Student:
+    """define class Student."""
 
     def __init__(self, first_name, last_name, age):
         """init a new Student.
