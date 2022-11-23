@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """A Python script that:
-fetches https://alu-intranet.hbtn.io/status and uses a urlib package.
+- fetches 'https://alu-intranet.hbtn.io/status'
+- and uses a urlib package.
 """
 import urllib.request
 
