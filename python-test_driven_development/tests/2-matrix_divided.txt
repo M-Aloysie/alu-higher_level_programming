@@ -1,7 +1,6 @@
-#!/usr/bin/python3
-# A function that divides all elements of a matrix.
+==============================
+How to Use '2-matrix_divided.py'
+==============================
 
-
-"""
 
 
