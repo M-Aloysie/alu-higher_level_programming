@@ -83,15 +83,15 @@ A combo example:
 
 ::
 
-    >>> text_indentation("Hello am Lucky, I am very pleased to meet you "
-    ... "ohh. you said? I said happy to meet you and I want to invite you "
-    ... "sorry where? In the noble family church. you will see  miracles , "
-    ... "by explaining: Are they many? people, change, and  through prayers "
-    ... "ohh okay. I feel like I am interested to come, you can help me "
-    ... "thank you so much am happy for you. On sunday, we we go. Great "
-    ... "am going to change and testify what happened to me. Thank you "
-    ... "okay, interesting. Anyway do you think you will be   available, "
-    ... "ohh yeah. I know great things are yet to come ! I  am   lucky  "
+    >>> text_indentation("Lorem ipsum dolor sit amet, consectetur adipiscing "
+    ... "elit. Quonam modo? Utrum igitur tibi litteram videor an totas paginas "
+    ... "commovere? Non autem hoc: igitur ne illud quidem. Fortasse id optimum, "
+    ... "sed ubi illud: Plus semper voluptatis? Teneo, inquit, finem illi videri "
+    ... "nihil dolere. Transfer idem ad modestiam vel temperantiam, quae est "
+    ... "moderatio cupiditatum rationi oboediens. Si id dicis, vicimus. Inde "
+    ... "sermone vario sex illa a Dipylo stadia confecimus. Sin aliud quid "
+    ... "voles, postea. Quae animi affectio suum cuique tribuens atque hanc, "
+    ... "quam dico. Utinam quidem dicerent alium alio beatiorem! Iam ruinas "
     ... "great") # doctest: +NORMALIZE_WHITESPACE
     Hello am lucky yeah, could we be friends for now.
     <BLANKLINE>
