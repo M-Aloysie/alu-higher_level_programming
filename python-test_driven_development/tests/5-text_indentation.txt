@@ -83,15 +83,15 @@ A combo example:
 
 ::
 
-    >>> text_indentation("Hello I am  Lucky, I am very pleased to meet you "
-    ... "ohh. you said? I said I ma plesed to meet you and I want to invite you "
-    ... "sorry where? In the noble family church. where you will see the miracles , "
-    ... "by explaining: Are they many? people, changing, their lives through prayers "
+    >>> text_indentation("Hello am Lucky, I am very pleased to meet you "
+    ... "ohh. you said? I said happy to meet you and I want to invite you "
+    ... "sorry where? In the noble family church. you will see  miracles , "
+    ... "by explaining: Are they many? people, change, and  through prayers "
     ... "ohh okay. I feel like I am interested to come, you can help me "
-    ... "thank you so much am happy for you. On sunday, we will go. Great "
-    ... "am going to change and testify what happened to me. Thank you so much "
-    ... "okay, interesting. Anyway do you think you will be available in the other days, "
-    ... "ohh yeah. I know great things are yet to come ! I am lucky too "
+    ... "thank you so much am happy for you. On sunday, we we go. Great "
+    ... "am going to change and testify what happened to me. Thank you "
+    ... "okay, interesting. Anyway do you think you will be   available, "
+    ... "ohh yeah. I know great things are yet to come ! I  am   lucky  "
     ... "great") # doctest: +NORMALIZE_WHITESPACE
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     <BLANKLINE>
