@@ -74,8 +74,8 @@ New lines within a string are printed as normal.
     <BLANKLINE>
 
 ::
-    >>> text_indentation("A blessing \n new line.")
-    A blessing
+    >>> text_indentation("A bless \n new line.")
+    A bless
     new line.
     <BLANKLINE>
 
@@ -93,7 +93,7 @@ A combo example:
     ... "okay, interesting. Anyway do you think you will be   available, "
     ... "ohh yeah. I know great things are yet to come ! I  am   lucky  "
     ... "great") # doctest: +NORMALIZE_WHITESPACE
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Hello am lucky yeah, could we be friends for now.
     <BLANKLINE>
     Interesting?
     <BLANKLINE>
@@ -103,11 +103,11 @@ A combo example:
     <BLANKLINE>
     it will be great and cool.
     <BLANKLINE>
-    Thanks be to God, I am very happy:
+    Thanks be to God, am very happy:
     <BLANKLINE>
     How about you?
     <BLANKLINE>
-    Look, lucky, I don't know what to say.
+    Look, lucky, don't know what to say.
     <BLANKLINE>
     But I am very thankful and happy to see you,
     and am very curious of how it will be like.
