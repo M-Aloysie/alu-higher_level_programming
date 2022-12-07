@@ -17,16 +17,16 @@ Usage
 
 ::
 
-    >>> say_my_name("Angelina Jordan", "Tylor")
-    My name is Angelina Jordan Tylor
+    >>> say_my_name("Angela Jordan", "Tylor")
+    My name is Angela Jordan Tylor
 
 The parameter ```last_name``` is optional. If no last name is provided,
 an empty string is printed instead.
 
 ::
 
-    >>> say_my_name("Aloysie")
-    My name is Aloysie
+    >>> say_my_name("Loycie")
+    My name is Loycie
 
 Invalid Names
 =============
