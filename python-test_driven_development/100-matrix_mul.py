@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# A  function that multiplies 2 matrices
 """matrix multiplication file"""
 
 
