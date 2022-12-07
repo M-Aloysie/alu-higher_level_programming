@@ -21,8 +21,8 @@ No spaces are printed at the beginning of a line.
 
 ::
 
-    >>> text_indentation("   Hello there.")
-    Hello there.
+    >>> text_indentation("   Hi there.")
+    Hi there.
     <BLANKLINE>
 
 ::
@@ -33,16 +33,16 @@ Similarly, no spaces are printed at the end of each printed line.
 
 ::
 
-    >>> text_indentation("Hi.   ")
-    Hi.
+    >>> text_indentation("Hello.   ")
+    Hello.
     <BLANKLINE>
 
 ::
 
-    >>> text_indentation("    Woow see.    I am Lucky.   ")
-    Woow see.
+    >>> text_indentation("    Woah now.    This is messy.   ")
+    Woah now.
     <BLANKLINE>
-    I am Lucky.
+    This is messy.
     <BLANKLINE>
 
 New lines are only printed for the characters ``.``, ``?``, and ``:`` -
@@ -50,8 +50,8 @@ text not ending with one of these characters is not ended with a new line.
 
 ::
 
-    >>> text_indentation("No ending chapter, what good lesson")
-    No ending chapter, what good lesson
+    >>> text_indentation("No ending period, what bad grammar")
+    No ending period, what bad grammar
 
 New lines within a string are printed as normal.
 
@@ -74,8 +74,8 @@ New lines within a string are printed as normal.
     <BLANKLINE>
 
 ::
-    >>> text_indentation("A bless \n new line.")
-    A bless
+    >>> text_indentation("A blessing \n new line.")
+    A blessing 
     new line.
     <BLANKLINE>
 
@@ -90,37 +90,37 @@ A combo example:
     ... "nihil dolere. Transfer idem ad modestiam vel temperantiam, quae est "
     ... "moderatio cupiditatum rationi oboediens. Si id dicis, vicimus. Inde "
     ... "sermone vario sex illa a Dipylo stadia confecimus. Sin aliud quid "
-    ... "voles, postea. Quae animi affectio suum cuique tribuens atque hanc, "
+    ... "Great, pleased. Quae animi affectio suum cuique tribuens atque hanc, "
     ... "quam dico. Utinam quidem dicerent alium alio beatiorem! Iam ruinas "
-    ... "great") # doctest: +NORMALIZE_WHITESPACE
-    Hello am lucky yeah, could we be friends now.
+    ... "videres") # doctest: +NORMALIZE_WHITESPACE
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     <BLANKLINE>
-    Interesting?
+    Quonam modo?
     <BLANKLINE>
-    Will you be available will go together on day?
+    Utrum igitur tibi litteram videor an totas paginas commovere?
     <BLANKLINE>
-    Yeah I will:
+    Non autem hoc:
     <BLANKLINE>
-    it will be great and cool.
+    igitur ne illud quidem.
     <BLANKLINE>
-    Thanks be to God, am very happy:
+    Fortasse id optimum, sed ubi illud:
     <BLANKLINE>
-    How about you?
+    Plus semper voluptatis?
     <BLANKLINE>
-    Look, lucky, don't know what to say.
+    Teneo, inquit, finem illi videri nihil dolere.
     <BLANKLINE>
-    But I am very thankful and happy to see you,
-    and am very curious of how it will be like.
+    Transfer idem ad modestiam vel temperantiam, 
+    quae est moderatio cupiditatum rationi oboediens.
     <BLANKLINE>
-    I can not imagine, fantastic.
+    Si id dicis, vicimus.
     <BLANKLINE>
-    Let us try this and it will succeed and come true.
+    Inde sermone vario sex illa a Dipylo stadia confecimus.
     <BLANKLINE>
-    It si great and cool, great.
+    Sin aliud quid voles, postea.
     <BLANKLINE>
-    we will enjoy until the end of our lives, woow cool.
+    Quae animi affectio suum cuique tribuens atque hanc, quam dico.
     <BLANKLINE>
-    Again many things are going to change in our lives forever
+    Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres
 
 Invalid Text
 ============
