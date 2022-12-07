@@ -1,6 +1,6 @@
-============================
-How to Use '3-say_my_name.py
-============================
+===========================
+How to Use 3-say_my_name.py
+===========================
 
 This modules defines a function ``say_my_name(first_name, last_name="")``.
 
@@ -12,21 +12,21 @@ Usage
 ::
 
     >>> say_my_name = __import__('3-say_my_name').say_my_name
-    >>> say_my_name("Lucky", "Loycie")
-    My name is Lucky Loycie
+    >>> say_my_name("Bets", "Scripts")
+    My name is Bets Scripts
 
 ::
 
-    >>> say_my_name("Angela Jordan", "Tylor")
-    My name is Angela Jordan Tylor
+    >>> say_my_name("Tan Jurie", "April")
+    My name is Tan Jurie April
 
 The parameter ```last_name``` is optional. If no last name is provided,
 an empty string is printed instead.
 
 ::
 
-    >>> say_my_name("Lucky")
-    My name is Lucky
+    >>> say_my_name("Bets")
+    My name is Bets 
 
 Invalid Names
 =============
@@ -42,13 +42,13 @@ a TypeError is raised.
 
 ::
 
-    >>> say_my_name("Lucky", ["Josh", "Sando", "Cold"])
+    >>> say_my_name("MeCalister", ["Cars", "Bakons", "Great"])
     Traceback (most recent call last):
     TypeError: last_name must be a string
 
 ::
 
-    >>> say_my_name({"Lucky": 7, "John": 77}, 5.5)
+    >>> say_my_name({"LeBron": 7, "John": 32}, 7.7)
     Traceback (most recent call last):
     TypeError: first_name must be a string
 
