@@ -13,7 +13,7 @@ Usage
 
     >>> say_my_name = __import__('3-say_my_name').say_my_name
     >>> say_my_name("Lucky", "Aloysie")
-    My name is Gamma Aloysie
+    My name is Lucky Aloysie
 
 ::
 
@@ -25,8 +25,8 @@ an empty string is printed instead.
 
 ::
 
-    >>> say_my_name("Gamma")
-    My name is Gamma
+    >>> say_my_name("Lucky")
+    My name is Lucky
 
 Invalid Names
 =============
