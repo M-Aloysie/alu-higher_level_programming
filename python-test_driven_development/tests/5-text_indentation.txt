@@ -1,0 +1,146 @@
+================================
+How to Use '5-text_indentation.py'
+================================
+
+This module defines a text-indentation function ``text_indentation(text)``.
+
+Usage
+=====
+
+Text is printed with two new lines after each of the characters ``.``, ``?``,
+and ``:``.
+
+::
+
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+    >>> text_indentation("Hello?")
+    Hello?
+    <BLANKLINE>
+
+No spaces are printed at the beginning of a line.
+
+::
+
+    >>> text_indentation("   Hello there.")
+    Hello there.
+    <BLANKLINE>
+
+::
+
+    >>> text_indentation("          ")
+
+Similarly, no spaces are printed at the end of each printed line.
+
+::
+
+    >>> text_indentation("Hi.   ")
+    Hi.
+    <BLANKLINE>
+
+::
+
+    >>> text_indentation("    Woow see.    I am Lucky.   ")
+    Woow see.
+    <BLANKLINE>
+    I am Lucky.
+    <BLANKLINE>
+
+New lines are only printed for the characters ``.``, ``?``, and ``:`` -
+text not ending with one of these characters is not ended with a new line.
+
+::
+
+    >>> text_indentation("No ending chapter, what good lesson")
+    No ending chapter, what good lesson
+
+New lines within a string are printed as normal.
+
+::
+
+    >>> text_indentation("Let's print a new-line! Here goes:\nPrinted.")
+    Let's print a new-line! Here goes:
+    <BLANKLINE>
+    <BLANKLINE>
+    Printed.
+    <BLANKLINE>
+
+::
+
+    >>> text_indentation("\n\n\n We just printed three new lines.")
+    <BLANKLINE>
+    <BLANKLINE>
+    <BLANKLINE>
+    We just printed three new lines.
+    <BLANKLINE>
+
+::
+    >>> text_indentation("A blessing \n new line.")
+    A blessing
+    new line.
+    <BLANKLINE>
+
+A combo example:
+
+::
+
+    >>> text_indentation("Hello I am called Lucky, I am very pleased to meet you "
+    ... "ohh. you said? I said I ma plesed to meet you and I want to inviye you "
+    ... "sorry where? In the noble family church where you will see the miracles , "
+    ... "by explaining: There are many people changing their lives through prayers "
+    ... "ohh okay. I feel like I am interested to come, you can help me "
+    ... "thank you so much am happy for you. On sunday, we will go. Great "
+    ... "am going to change and testify what happened to me. Thank you so much "
+    ... "okay, interesting. Anyway do you think you will be available in the other days, "
+    ... "ohh yeah. I know great things are yet to come ! I am lucky too "
+    ... "great") # doctest: +NORMALIZE_WHITESPACE
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <BLANKLINE>
+    Interesting?
+    <BLANKLINE>
+    Will you be available so that we will go together on day?
+    <BLANKLINE>
+    Yeah I will:
+    <BLANKLINE>
+    it will be great and cool.
+    <BLANKLINE>
+    Thanks be to God, I am very happy:
+    <BLANKLINE>
+    How about you?
+    <BLANKLINE>
+    Look, lucky, I don't know what to say.
+    <BLANKLINE>
+    But I am very thankful and happy to see you,
+    and am very curious of how it will be like.
+    <BLANKLINE>
+    I can not imagine, fantastic.
+    <BLANKLINE>
+    Let us try this and it will succeed and come true.
+    <BLANKLINE>
+    It si great and cool, great.
+    <BLANKLINE>
+    we will enjoy until the end of our lives, woow cool.
+    <BLANKLINE>
+    Again many things are going to change in our lives forever
+
+Invalid Text
+============
+
+The paramter ``text`` must be a string. Otherwise, a TypeError is raised.
+
+::
+
+    >>> text_indentation(7)
+    Traceback (most recent call last):
+    TypeError: text must be a string
+
+::
+
+    >>> text_indentation({"one": 1, "two": 2})
+    Traceback (most recent call last):
+    TypeError: text must be a string
+
+::
+
+    >>> text_indentation(None)
+    Traceback (most recent call last):
+    TypeError: text must be a string
