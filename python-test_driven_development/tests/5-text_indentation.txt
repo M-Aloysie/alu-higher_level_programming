@@ -74,6 +74,7 @@ New lines within a string are printed as normal.
     <BLANKLINE>
 
 ::
+ 
     >>> text_indentation("A blessing \n new line.")
     A blessing
     new line.
