@@ -93,7 +93,7 @@ A combo example:
     ... "voles, postea. Quae animi affectio suum cuique tribuens atque hanc, "
     ... "quam dico. Utinam quidem dicerent alium alio beatiorem! Iam ruinas "
     ... "great") # doctest: +NORMALIZE_WHITESPACE
-    Hello am lucky yeah, could we be friends.
+    Hello am lucky yeah, could we be friends now.
     <BLANKLINE>
     Interesting?
     <BLANKLINE>
