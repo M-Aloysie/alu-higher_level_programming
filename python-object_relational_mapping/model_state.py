@@ -1,27 +1,22 @@
 #!/usr/bin/python3
-""" lists all State objects from the database hbtn_0e_6_usa."""
-
-import sqlalchemy
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+# A python file that contains the class definition
+# of a State and an instance Base = declarative_base():
+"""import 'sys' & 'MySQLdb'."""
 import sys
-from model_state import Base, State
+import MySQLdb
 
-if __name__ == "__main__":
-    # Create engine
-    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'
-                           .format(sys.argv[1], sys.argv[2], sys.argv[3]),
-                           pool_pre_ping=True)
+from sqlalchemy import Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
 
-    # Create session
-    Base.metadata.create_all(engine)
-    Session = sessionmaker(bind=engine)
-    session = Session()
-    # Query
-    state = session.query(State).first()
-    if state is not None:
-        print("{}: {}".format(state.id, state.name))
-    else:
-        print("Nothing")
-    # Close session
-    session.close()
+Base = declarative_base()
+
+
+class State(Base):
+    """Represents a state for a MySQL database.
+    __tablename__ (str): The name of the MySQL table to store States.
+    id (sqlalchemy.Integer): The state's id.
+    name (sqlalchemy.String): The state's name.
+    """
+    __tablename__ = "states"
+    id = Column(Integer, primary_key=True)
+    name = Column(String(128), nullable=False)
