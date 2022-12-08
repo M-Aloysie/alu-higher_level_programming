@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# A tes case for Rectangle Class
+# A test case for Rectangle Class
 """Test case for Rectangle class."""
 
 import unittest
