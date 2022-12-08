@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# A test cas for square
 
 import os
 import unittest
@@ -10,10 +9,10 @@ from unittest.mock import patch
 
 
 class TestSquare(unittest.TestCase):
-    """Test class for square."""
+    """Test class for square"""
 
     def test_instance(self):
-        """Test for instance."""
+        """Test for instance"""
         Base._Base__nb_objects = 0
         s = Square(1)
         s1 = Square(1, 2)
