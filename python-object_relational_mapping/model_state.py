@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# A python file that contains the class definition of a State
-# and an instance Base = declarative_base()
 """ lists all State objects from the database hbtn_0e_6_usa."""
 
 import sqlalchemy

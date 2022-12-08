@@ -1,8 +1,5 @@
-#!/usr/bin/python3
-# A script that prints the first State object from the database hbtn_0e_6_usa 
-"""
-list the first State object from a database.
-"""
+#!/usr/bin/python3 
+"""list the first State object from a database."""
 
 import sqlalchemy
 from sqlalchemy import create_engine
