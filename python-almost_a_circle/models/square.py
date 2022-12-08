@@ -1,23 +1,22 @@
 #!/usr/bin/python3
-# The Square 
 """A rectangle module."""
 from models.rectangle import Rectangle
 
 
 class Square(Rectangle):
-    """ A Square class """
+    """ A Square class."""
     def __init__(self, size, x=0, y=0, id=None):
-        """Initialize a square instance"""
+        """Initialize a square instance."""
         super().__init__(size, size, x, y, id)
 
     def __str__(self):
-        """Returns the string representation of a square"""
+        """Returns the string representation of a square."""
         return "[Square] ({}) {}/{} - {}".format(
             self.id, self.x, self.y, self.width)
 
     @property
     def size(self):
-        """Getter for size"""
+        """Getter for size."""
         return self.width
 
     @size.setter
