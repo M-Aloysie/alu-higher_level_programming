@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-# A script that lists all 'State' objects from,
-# the database 'hbtn_0e_6_usa'
-"""
-   import 'sys' & 'MySQLdb'
-"""
+# script that lists all State objects from the database hbtn_0e_6_usa
+"""import 'sys' & 'MySQLdb'."""
 import sys
+import MySQLdb
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from model_state import State
