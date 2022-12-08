@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# the Square 
+# The Square 
 """A rectangle module."""
 from models.rectangle import Rectangle
 
