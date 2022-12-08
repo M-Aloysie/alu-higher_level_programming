@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# A test cas for square
 
 import os
 import unittest
