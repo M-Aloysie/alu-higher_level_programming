@@ -9,6 +9,6 @@ if (isNaN(size)) {
     for (let j = 0; j < size; j++) {
       row += 'X';
     }
-  };
-  
-  add(parseInt(process.argv[2]), parseInt(process.argv[3]));
+    console.log(row);
+  }
+}
